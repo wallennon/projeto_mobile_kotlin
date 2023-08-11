@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ProjetoFinalMobile</string>
+
+    <string name="nome">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="telefone">Telefone (DDD) x xxxx-xxxx</string>
+    <string name="sexo">Sexo</string>
+    <string name="planoSaude">Possui Plano de Saúde?</string>
+    <string name="hipertensao">É Hipertenso?</string>
+    <string name="diabetes">É Diabético?</string>
+    <string name="insulina">É Insulínico?</string>
+    <string name="amg">Possui AMG?</string>
+    <string name="covid">Teve COVID?</string>
+    <string name="complicacoes">Se sim, teve complicações?</string>
+    <string name="pa_max">P.A Máxima</string>
+    <string name="pa_min">P.A Mínima</string>
+    <string name="c_a">C.A</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="imc">I.M.C</string>
+    <string name="fator_de_risco">Número de Fatores de Risco:</string>
+    <string name="text_view_nome_documento">Instrumento de Extratificação\n de Risco Cardiovascular</string>
+    <string name="sexo_masc">O paciente é do sexo masculino?</string>
+    <string name="idade">Idade: Homem > 55 anos ou Mulher > 65 anos?</string>
+    <string name="historico_dcv">Histórico de Doença Cardiovascular prematura em parentes de 1º grau?\n Homem > 55 anos ou Mulher > 65 anos</string>
+    <string name="tabagismo">O paciente é fumante?</string>
+    <string name="diabete_melito">Diabetes Melito (DM) já confirmado (glicemia de jejum, de pelo menos 8H, 126mg/dl, glicemia aleatória >= 200mg/dl ou HbA1c >= 6,5%) ou Pré-Diabetes (glicemia de jejum entre 100 e 125mg/dl ou HbA1c entre 5,7 e 6,4%) ?</string>
+    <string name="obesidade">Obesidade: IMC >= 30kg/m² ou C.A >= 94cm nos Homens ou >= 80cm em Mulheres?</string>
+    <string name="dislipdemia">Dislipdemia: Triglicerídeos > 150mg/dl e/ou LDL > 100mg/dl e/ou HDL-C > 40mg/dl ?</string>
+    <string name="questao_01">Quais são seus sentimentos, emoções e percepções por esta doença?</string>
+    <string name="questao_02">Por que você acha que tem esta doença?</string>
+    <string name="questao_03">Como esta doença atrapalha sua vida?</string>
+    <string name="questao_04">Como você acredita que possamos controlar essa doença, uma vez que não tem cura?</string>
+    <string name="isquemico">AVE Isquemico?</string>
+    <string name="hemorragia_cerebral">Hemorragia cerebral?</string>
+    <string name="ait">Ataque Isquêmico Transitório (AIT)?</string>
+    <string name="aei">Angina Estável ou Instável?</string>
+    <string name="infarto_miocardio">Infarto do Miocárdio?</string>
+    <string name="r_miocardio">Revascularização do Miocardio (angioplastia ou cirurgia)?</string>
+    <string name="insuf_cardiaca">Clínica de insuficiência cardíaca e/ou fração de ejeção reduzida?</string>
+    <string name="d_arterial">Doença arterial periférica sintomática dos membros inferiores?</string>
+    <string name="d_renal">Doença renal crônica estágio 4 (RFG-e menor que 30ml/min/1,73² ou albuminúria > 300mg/24H)?</string>
+    <string name="retinoplatia">Retinoplatia avançada² : Hemorragias, Exsustados, Papiledema ¹.³ ?</string>
+    <string name="criterios">Preenche 1 ou mais critérios?</string>
+
+
+
+</resources>

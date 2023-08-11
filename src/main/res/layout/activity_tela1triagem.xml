@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_view_nome_documento"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="TELA DE TRIAGEM"
+            android:textSize="14sp"
+            android:padding="16dp"/>
+
+
+
+        <TextView
+            android:text="@string/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:text="@string/sexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Masculino"
+                android:textOff="Masculino"
+                android:checked="true" />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnFeminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Feminino"
+                android:textOff="Feminino" />
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/planoSaude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                 />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/hipertensao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                 />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/diabetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                 />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/insulina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/amg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                tools:ignore="DuplicateIds" />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/covid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                 />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/complicacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ToggleButton
+                android:id="@+id/toggleBtnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Sim"
+                android:textOff="Sim"
+                 />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Não"
+                android:textOff="Não"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/pa_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_pa_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/pa_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_pa_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/c_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_c_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/fator_de_risco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_fator_de_risco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:inputType="none"
+            android:clickable="false"
+            />
+
+        <LinearLayout
+            android:layout_width="234dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnVoltarTela1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Voltar" />
+
+            <Button
+                android:id="@+id/btnSeguinteTela1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnVoltarTela1"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Seguinte" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

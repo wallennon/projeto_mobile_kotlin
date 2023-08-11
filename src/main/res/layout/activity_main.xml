@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="184dp"
+        android:layout_height="153dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_sertao_cuidado" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/text_view_nome_documento"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnTriagem"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnTriagem"
+        android:padding="8dp"
+        android:text="Triagem"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnFatorDeRisco"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnFatorDeRisco"
+        android:padding="8dp"
+        android:text="Fatores de Risco"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnLoa"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnLoa"
+        android:padding="8dp"
+        android:text="Lesão de Órgão Alvo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDoencaCardiovascular"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnDoencaCardiovascular"
+        android:padding="8dp"
+        android:text="Doença Cardiovascular ou Renal Estabelecida"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDcp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnDcp"
+        android:padding="8dp"
+        android:text="Discussão Centrada na Pessoa"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
